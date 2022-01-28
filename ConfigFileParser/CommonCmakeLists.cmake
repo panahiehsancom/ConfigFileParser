@@ -3,7 +3,13 @@ cmake_minimum_required(VERSION 3.5)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+if(UNIX)
 
+    find_package(Boost COMPONENTS system thread REQUIRED)
+
+    include_directories(${Boost_INCLUDE_DIR})
+
+endif(UNIX)
 
 
 if(DEFINED Module_Name)

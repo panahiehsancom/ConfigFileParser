@@ -94,6 +94,7 @@ dataaccess/all: dataaccess/doc/all
 dataaccess/all: dataaccess/include/all
 dataaccess/all: dataaccess/res/all
 dataaccess/all: dataaccess/src/all
+dataaccess/all: dataaccess/test/all
 
 .PHONY : dataaccess/all
 
@@ -102,6 +103,7 @@ dataaccess/preinstall: dataaccess/doc/preinstall
 dataaccess/preinstall: dataaccess/include/preinstall
 dataaccess/preinstall: dataaccess/res/preinstall
 dataaccess/preinstall: dataaccess/src/preinstall
+dataaccess/preinstall: dataaccess/test/preinstall
 
 .PHONY : dataaccess/preinstall
 
@@ -112,6 +114,7 @@ dataaccess/clean: dataaccess/doc/clean
 dataaccess/clean: dataaccess/include/clean
 dataaccess/clean: dataaccess/res/clean
 dataaccess/clean: dataaccess/src/clean
+dataaccess/clean: dataaccess/test/clean
 
 .PHONY : dataaccess/clean
 
@@ -186,6 +189,107 @@ dataaccess/src/preinstall:
 dataaccess/src/clean:
 
 .PHONY : dataaccess/src/clean
+
+#=============================================================================
+# Directory level rules for directory dataaccess/test
+
+# Recursive "all" directory target.
+dataaccess/test/all: dataaccess/test/CMakeFiles/_test.dir/all
+dataaccess/test/all: dataaccess/test/doc/all
+dataaccess/test/all: dataaccess/test/include/all
+dataaccess/test/all: dataaccess/test/res/all
+dataaccess/test/all: dataaccess/test/src/all
+
+.PHONY : dataaccess/test/all
+
+# Recursive "preinstall" directory target.
+dataaccess/test/preinstall: dataaccess/test/doc/preinstall
+dataaccess/test/preinstall: dataaccess/test/include/preinstall
+dataaccess/test/preinstall: dataaccess/test/res/preinstall
+dataaccess/test/preinstall: dataaccess/test/src/preinstall
+
+.PHONY : dataaccess/test/preinstall
+
+# Recursive "clean" directory target.
+dataaccess/test/clean: dataaccess/test/CMakeFiles/_test.dir/clean
+dataaccess/test/clean: dataaccess/test/doc/clean
+dataaccess/test/clean: dataaccess/test/include/clean
+dataaccess/test/clean: dataaccess/test/res/clean
+dataaccess/test/clean: dataaccess/test/src/clean
+
+.PHONY : dataaccess/test/clean
+
+#=============================================================================
+# Directory level rules for directory dataaccess/test/doc
+
+# Recursive "all" directory target.
+dataaccess/test/doc/all:
+
+.PHONY : dataaccess/test/doc/all
+
+# Recursive "preinstall" directory target.
+dataaccess/test/doc/preinstall:
+
+.PHONY : dataaccess/test/doc/preinstall
+
+# Recursive "clean" directory target.
+dataaccess/test/doc/clean:
+
+.PHONY : dataaccess/test/doc/clean
+
+#=============================================================================
+# Directory level rules for directory dataaccess/test/include
+
+# Recursive "all" directory target.
+dataaccess/test/include/all:
+
+.PHONY : dataaccess/test/include/all
+
+# Recursive "preinstall" directory target.
+dataaccess/test/include/preinstall:
+
+.PHONY : dataaccess/test/include/preinstall
+
+# Recursive "clean" directory target.
+dataaccess/test/include/clean:
+
+.PHONY : dataaccess/test/include/clean
+
+#=============================================================================
+# Directory level rules for directory dataaccess/test/res
+
+# Recursive "all" directory target.
+dataaccess/test/res/all:
+
+.PHONY : dataaccess/test/res/all
+
+# Recursive "preinstall" directory target.
+dataaccess/test/res/preinstall:
+
+.PHONY : dataaccess/test/res/preinstall
+
+# Recursive "clean" directory target.
+dataaccess/test/res/clean:
+
+.PHONY : dataaccess/test/res/clean
+
+#=============================================================================
+# Directory level rules for directory dataaccess/test/src
+
+# Recursive "all" directory target.
+dataaccess/test/src/all:
+
+.PHONY : dataaccess/test/src/all
+
+# Recursive "preinstall" directory target.
+dataaccess/test/src/preinstall:
+
+.PHONY : dataaccess/test/src/preinstall
+
+# Recursive "clean" directory target.
+dataaccess/test/src/clean:
+
+.PHONY : dataaccess/test/src/clean
 
 #=============================================================================
 # Directory level rules for directory doc
@@ -289,7 +393,7 @@ CMakeFiles/ConfigFileParser.dir/all: dataaccess/CMakeFiles/dataaccess.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ConfigFileParser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ConfigFileParser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/ConfigFileParser.dir/rule
@@ -316,7 +420,7 @@ CMakeFiles/ConfigFileParser_build_headers.dir/all: dataaccess/CMakeFiles/dataacc
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ConfigFileParser_build_headers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ConfigFileParser_build_headers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/ConfigFileParser_build_headers.dir/rule
@@ -338,12 +442,12 @@ CMakeFiles/ConfigFileParser_build_headers.dir/clean:
 dataaccess/CMakeFiles/dataaccess.dir/all: CMakeFiles/ConfigFileParser_build_headers.dir/all
 	$(MAKE) -f dataaccess/CMakeFiles/dataaccess.dir/build.make dataaccess/CMakeFiles/dataaccess.dir/depend
 	$(MAKE) -f dataaccess/CMakeFiles/dataaccess.dir/build.make dataaccess/CMakeFiles/dataaccess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles --progress-num=3,4 "Built target dataaccess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles --progress-num=6,7,8 "Built target dataaccess"
 .PHONY : dataaccess/CMakeFiles/dataaccess.dir/all
 
 # Build rule for subdir invocation for target.
 dataaccess/CMakeFiles/dataaccess.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 dataaccess/CMakeFiles/dataaccess.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 0
 .PHONY : dataaccess/CMakeFiles/dataaccess.dir/rule
@@ -365,12 +469,12 @@ dataaccess/CMakeFiles/dataaccess.dir/clean:
 dataaccess/CMakeFiles/dataaccess_build_headers.dir/all:
 	$(MAKE) -f dataaccess/CMakeFiles/dataaccess_build_headers.dir/build.make dataaccess/CMakeFiles/dataaccess_build_headers.dir/depend
 	$(MAKE) -f dataaccess/CMakeFiles/dataaccess_build_headers.dir/build.make dataaccess/CMakeFiles/dataaccess_build_headers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles --progress-num=5,6 "Built target dataaccess_build_headers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles --progress-num=9,10,11,12 "Built target dataaccess_build_headers"
 .PHONY : dataaccess/CMakeFiles/dataaccess_build_headers.dir/all
 
 # Build rule for subdir invocation for target.
 dataaccess/CMakeFiles/dataaccess_build_headers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 dataaccess/CMakeFiles/dataaccess_build_headers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 0
 .PHONY : dataaccess/CMakeFiles/dataaccess_build_headers.dir/rule
@@ -384,6 +488,33 @@ dataaccess_build_headers: dataaccess/CMakeFiles/dataaccess_build_headers.dir/rul
 dataaccess/CMakeFiles/dataaccess_build_headers.dir/clean:
 	$(MAKE) -f dataaccess/CMakeFiles/dataaccess_build_headers.dir/build.make dataaccess/CMakeFiles/dataaccess_build_headers.dir/clean
 .PHONY : dataaccess/CMakeFiles/dataaccess_build_headers.dir/clean
+
+#=============================================================================
+# Target rules for target dataaccess/test/CMakeFiles/_test.dir
+
+# All Build rule for target.
+dataaccess/test/CMakeFiles/_test.dir/all:
+	$(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/depend
+	$(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles --progress-num=3,4,5 "Built target _test"
+.PHONY : dataaccess/test/CMakeFiles/_test.dir/all
+
+# Build rule for subdir invocation for target.
+dataaccess/test/CMakeFiles/_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 dataaccess/test/CMakeFiles/_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles 0
+.PHONY : dataaccess/test/CMakeFiles/_test.dir/rule
+
+# Convenience name for target.
+_test: dataaccess/test/CMakeFiles/_test.dir/rule
+
+.PHONY : _test
+
+# clean rule for target.
+dataaccess/test/CMakeFiles/_test.dir/clean:
+	$(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/clean
+.PHONY : dataaccess/test/CMakeFiles/_test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

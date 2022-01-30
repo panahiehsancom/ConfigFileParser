@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt
 include dataaccess/CMakeFiles/dataaccess_build_headers.dir/progress.make
 
 dataaccess/CMakeFiles/dataaccess_build_headers: include/dataaccess/dataaccessmodule.h
+dataaccess/CMakeFiles/dataaccess_build_headers: include/dataaccess/filereader.h
+dataaccess/CMakeFiles/dataaccess_build_headers: include/dataaccess/IFileReader.h
 dataaccess/CMakeFiles/dataaccess_build_headers: include/dataaccess/IJsonParser.h
 
 
@@ -62,13 +64,25 @@ include/dataaccess/dataaccessmodule.h: /home/test/ConfigFileParser/ConfigFilePar
 	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess && /usr/bin/cmake -E copy /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/dataaccessmodule.h /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include/dataaccess/dataaccessmodule.h
 	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess && cat /home/test/ConfigFileParser/ConfigFileParser/generatedHeaderFileAlert.txt /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/dataaccessmodule.h /home/test/ConfigFileParser/ConfigFileParser/generatedHeaderFileAlert.txt > /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include/dataaccess/dataaccessmodule.h
 
+include/dataaccess/filereader.h: /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/filereader.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Copying header file -> dataaccess/filereader.h"
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess && /usr/bin/cmake -E copy /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/filereader.h /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include/dataaccess/filereader.h
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess && cat /home/test/ConfigFileParser/ConfigFileParser/generatedHeaderFileAlert.txt /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/filereader.h /home/test/ConfigFileParser/ConfigFileParser/generatedHeaderFileAlert.txt > /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include/dataaccess/filereader.h
+
+include/dataaccess/IFileReader.h: /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/IFileReader.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Copying header file -> dataaccess/IFileReader.h"
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess && /usr/bin/cmake -E copy /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/IFileReader.h /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include/dataaccess/IFileReader.h
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess && cat /home/test/ConfigFileParser/ConfigFileParser/generatedHeaderFileAlert.txt /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/IFileReader.h /home/test/ConfigFileParser/ConfigFileParser/generatedHeaderFileAlert.txt > /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include/dataaccess/IFileReader.h
+
 include/dataaccess/IJsonParser.h: /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/IJsonParser.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Copying header file -> dataaccess/IJsonParser.h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Copying header file -> dataaccess/IJsonParser.h"
 	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess && /usr/bin/cmake -E copy /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/IJsonParser.h /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include/dataaccess/IJsonParser.h
 	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess && cat /home/test/ConfigFileParser/ConfigFileParser/generatedHeaderFileAlert.txt /home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/IJsonParser.h /home/test/ConfigFileParser/ConfigFileParser/generatedHeaderFileAlert.txt > /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include/dataaccess/IJsonParser.h
 
 dataaccess_build_headers: dataaccess/CMakeFiles/dataaccess_build_headers
 dataaccess_build_headers: include/dataaccess/dataaccessmodule.h
+dataaccess_build_headers: include/dataaccess/filereader.h
+dataaccess_build_headers: include/dataaccess/IFileReader.h
 dataaccess_build_headers: include/dataaccess/IJsonParser.h
 dataaccess_build_headers: dataaccess/CMakeFiles/dataaccess_build_headers.dir/build.make
 

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/test/ConfigFileParser/ConfigFileParser/dataaccess/src/dataaccessmodule.cpp" "/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/CMakeFiles/dataaccess.dir/src/dataaccessmodule.cpp.o"
+  "/home/test/ConfigFileParser/ConfigFileParser/dataaccess/src/filereader.cpp" "/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/CMakeFiles/dataaccess.dir/src/filereader.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

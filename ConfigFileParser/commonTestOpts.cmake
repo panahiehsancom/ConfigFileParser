@@ -37,4 +37,5 @@ else(GENERAL_TEST)
 endif(GENERAL_TEST)
 
 enable_testing()
+
 add_test(${MODULE_TEST_NAME} ${TEST_SRC_APPDX} ${TEST_INCLUDE_APPDX})

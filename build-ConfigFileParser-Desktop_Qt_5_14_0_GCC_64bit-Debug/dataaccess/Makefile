@@ -167,6 +167,33 @@ src/dataaccessmodule.cpp.s:
 	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/CMakeFiles/dataaccess.dir/build.make dataaccess/CMakeFiles/dataaccess.dir/src/dataaccessmodule.cpp.s
 .PHONY : src/dataaccessmodule.cpp.s
 
+src/filereader.o: src/filereader.cpp.o
+
+.PHONY : src/filereader.o
+
+# target to build an object file
+src/filereader.cpp.o:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/CMakeFiles/dataaccess.dir/build.make dataaccess/CMakeFiles/dataaccess.dir/src/filereader.cpp.o
+.PHONY : src/filereader.cpp.o
+
+src/filereader.i: src/filereader.cpp.i
+
+.PHONY : src/filereader.i
+
+# target to preprocess a source file
+src/filereader.cpp.i:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/CMakeFiles/dataaccess.dir/build.make dataaccess/CMakeFiles/dataaccess.dir/src/filereader.cpp.i
+.PHONY : src/filereader.cpp.i
+
+src/filereader.s: src/filereader.cpp.s
+
+.PHONY : src/filereader.s
+
+# target to generate assembly for a file
+src/filereader.cpp.s:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/CMakeFiles/dataaccess.dir/build.make dataaccess/CMakeFiles/dataaccess.dir/src/filereader.cpp.s
+.PHONY : src/filereader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -180,6 +207,9 @@ help:
 	@echo "... src/dataaccessmodule.o"
 	@echo "... src/dataaccessmodule.i"
 	@echo "... src/dataaccessmodule.s"
+	@echo "... src/filereader.o"
+	@echo "... src/filereader.i"
+	@echo "... src/filereader.s"
 .PHONY : help
 
 

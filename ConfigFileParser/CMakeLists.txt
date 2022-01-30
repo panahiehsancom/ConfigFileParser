@@ -1,9 +1,13 @@
 cmake_minimum_required(VERSION 3.5)
 
 include(CMakeInitialzeCache.cmake)
+
+
+set(BUILD_TESTS 		TRUE 						CACHE BOOL "Whether unit tests should be built")
+
 project(ConfigFileParser C CXX)
 
-
+configure_file( buildConfig.h.in ${CMAKE_BINARY_DIR}/include/buildConfig.h )
 include_directories( ${CMAKE_BINARY_DIR}/include/ )
 add_custom_target(${CMAKE_PROJECT_NAME}_build_headers)
 

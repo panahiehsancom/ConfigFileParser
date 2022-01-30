@@ -5,7 +5,7 @@
 		<Option title="ConfigFileParser"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\;CMake Files\include\;CMake Files\src\;CMake Files\doc\;CMake Files\res\;CMake Files\test\;CMake Files\dataaccess\;CMake Files\dataaccess\doc\;CMake Files\dataaccess\include\;CMake Files\dataaccess\res\;CMake Files\dataaccess\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\;CMake Files\include\;CMake Files\src\;CMake Files\doc\;CMake Files\res\;CMake Files\test\;CMake Files\dataaccess\;CMake Files\dataaccess\doc\;CMake Files\dataaccess\include\;CMake Files\dataaccess\res\;CMake Files\dataaccess\src\;CMake Files\dataaccess\test\;CMake Files\dataaccess\test\doc\;CMake Files\dataaccess\test\include\;CMake Files\dataaccess\test\res\;CMake Files\dataaccess\test\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug"/>
@@ -169,15 +169,80 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_test">
+				<Option output="/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/test/include"/>
+					<Add directory="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/include"/>
+					<Add directory="/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/Makefile&quot;  VERBOSE=1 _test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_test/fast">
+				<Option output="/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/test/include"/>
+					<Add directory="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/include"/>
+					<Add directory="/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/Makefile&quot;  VERBOSE=1 _test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/dataaccess/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/IFileReader.h">
+			<Option target="dataaccess"/>
+		</Unit>
 		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/IJsonParser.h">
 			<Option target="dataaccess"/>
 		</Unit>
 		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/dataaccessmodule.h">
 			<Option target="dataaccess"/>
 		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/include/filereader.h">
+			<Option target="dataaccess"/>
+		</Unit>
 		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/src/dataaccessmodule.cpp">
 			<Option target="dataaccess"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/src/filereader.cpp">
+			<Option target="dataaccess"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/test/src/FileReader_unittest.cpp">
+			<Option target="_test"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/test/src/JSonParser_unittest.cpp">
+			<Option target="_test"/>
 		</Unit>
 		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/include/AppDef.h">
 			<Option target="ConfigFileParser"/>
@@ -185,10 +250,19 @@
 		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/src/main.cpp">
 			<Option target="ConfigFileParser"/>
 		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/CMakeInitialzeCache.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
 		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/CommonCmakeLists.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/buildConfig.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/commonTestOpts.cmake">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
@@ -271,6 +345,21 @@
 		</Unit>
 		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\dataaccess\src\"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataaccess\test\"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/test/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataaccess\test\doc\"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/test/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataaccess\test\include\"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/test/res/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataaccess\test\res\"/>
+		</Unit>
+		<Unit filename="/home/test/ConfigFileParser/ConfigFileParser/dataaccess/test/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dataaccess\test\src\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

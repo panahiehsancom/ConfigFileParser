@@ -5,6 +5,9 @@
 			"path" : "CMakeLists.txt"
 		},
 		{
+			"path" : "CMakeInitialzeCache.cmake"
+		},
+		{
 			"isGenerated" : true,
 			"path" : "/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug/CMakeFiles/3.16.3/CMakeSystem.cmake"
 		},
@@ -145,6 +148,9 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "buildConfig.h.in"
 		},
 		{
 			"path" : "CommonCmakeLists.cmake"
@@ -581,6 +587,54 @@
 		},
 		{
 			"path" : "dataaccess/src/CMakeLists.txt"
+		},
+		{
+			"path" : "dataaccess/test/CMakeLists.txt"
+		},
+		{
+			"path" : "commonTestOpts.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.16/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.16/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.16/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.16/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.16/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "dataaccess/test/doc/CMakeLists.txt"
+		},
+		{
+			"path" : "dataaccess/test/include/CMakeLists.txt"
+		},
+		{
+			"path" : "dataaccess/test/res/CMakeLists.txt"
+		},
+		{
+			"path" : "dataaccess/test/src/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

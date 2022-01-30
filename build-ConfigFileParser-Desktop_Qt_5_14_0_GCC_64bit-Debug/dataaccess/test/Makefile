@@ -110,6 +110,75 @@ depend:
 	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+dataaccess/test/CMakeFiles/_test.dir/rule:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f CMakeFiles/Makefile2 dataaccess/test/CMakeFiles/_test.dir/rule
+.PHONY : dataaccess/test/CMakeFiles/_test.dir/rule
+
+# Convenience name for target.
+_test: dataaccess/test/CMakeFiles/_test.dir/rule
+
+.PHONY : _test
+
+# fast build rule for target.
+_test/fast:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/build
+.PHONY : _test/fast
+
+src/FileReader_unittest.o: src/FileReader_unittest.cpp.o
+
+.PHONY : src/FileReader_unittest.o
+
+# target to build an object file
+src/FileReader_unittest.cpp.o:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/src/FileReader_unittest.cpp.o
+.PHONY : src/FileReader_unittest.cpp.o
+
+src/FileReader_unittest.i: src/FileReader_unittest.cpp.i
+
+.PHONY : src/FileReader_unittest.i
+
+# target to preprocess a source file
+src/FileReader_unittest.cpp.i:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/src/FileReader_unittest.cpp.i
+.PHONY : src/FileReader_unittest.cpp.i
+
+src/FileReader_unittest.s: src/FileReader_unittest.cpp.s
+
+.PHONY : src/FileReader_unittest.s
+
+# target to generate assembly for a file
+src/FileReader_unittest.cpp.s:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/src/FileReader_unittest.cpp.s
+.PHONY : src/FileReader_unittest.cpp.s
+
+src/JSonParser_unittest.o: src/JSonParser_unittest.cpp.o
+
+.PHONY : src/JSonParser_unittest.o
+
+# target to build an object file
+src/JSonParser_unittest.cpp.o:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/src/JSonParser_unittest.cpp.o
+.PHONY : src/JSonParser_unittest.cpp.o
+
+src/JSonParser_unittest.i: src/JSonParser_unittest.cpp.i
+
+.PHONY : src/JSonParser_unittest.i
+
+# target to preprocess a source file
+src/JSonParser_unittest.cpp.i:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/src/JSonParser_unittest.cpp.i
+.PHONY : src/JSonParser_unittest.cpp.i
+
+src/JSonParser_unittest.s: src/JSonParser_unittest.cpp.s
+
+.PHONY : src/JSonParser_unittest.s
+
+# target to generate assembly for a file
+src/JSonParser_unittest.cpp.s:
+	cd /home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug && $(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/src/JSonParser_unittest.cpp.s
+.PHONY : src/JSonParser_unittest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +187,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... _test"
+	@echo "... src/FileReader_unittest.o"
+	@echo "... src/FileReader_unittest.i"
+	@echo "... src/FileReader_unittest.s"
+	@echo "... src/JSonParser_unittest.o"
+	@echo "... src/JSonParser_unittest.i"
+	@echo "... src/JSonParser_unittest.s"
 .PHONY : help
 
 

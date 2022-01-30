@@ -162,6 +162,19 @@ dataaccess_build_headers/fast:
 	$(MAKE) -f dataaccess/CMakeFiles/dataaccess_build_headers.dir/build.make dataaccess/CMakeFiles/dataaccess_build_headers.dir/build
 .PHONY : dataaccess_build_headers/fast
 
+#=============================================================================
+# Target rules for targets named _test
+
+# Build rule for target.
+_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _test
+.PHONY : _test
+
+# fast build rule for target.
+_test/fast:
+	$(MAKE) -f dataaccess/test/CMakeFiles/_test.dir/build.make dataaccess/test/CMakeFiles/_test.dir/build
+.PHONY : _test/fast
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -201,6 +214,7 @@ help:
 	@echo "... ConfigFileParser_build_headers"
 	@echo "... dataaccess"
 	@echo "... dataaccess_build_headers"
+	@echo "... _test"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

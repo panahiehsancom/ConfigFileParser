@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/_test.dir/src/JSonParser_unittest.cpp.o CMakeFiles/_test.dir/src/FileReader_unittest.cpp.o  -o _test  -lpthread 

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libdataaccess.a  CMakeFiles/dataaccess.dir/src/dataaccessmodule.cpp.o
+/usr/bin/ar qc libdataaccess.a  CMakeFiles/dataaccess.dir/src/dataaccessmodule.cpp.o CMakeFiles/dataaccess.dir/src/filereader.cpp.o
 /usr/bin/ranlib libdataaccess.a

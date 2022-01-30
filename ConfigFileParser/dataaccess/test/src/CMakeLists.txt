@@ -1,0 +1,2 @@
+set(TEST_SRC
+    PARENT_SCOPE)

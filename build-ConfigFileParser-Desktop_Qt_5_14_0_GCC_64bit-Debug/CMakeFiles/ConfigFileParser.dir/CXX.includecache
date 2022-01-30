@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/test/ConfigFileParser/ConfigFileParser/src/main.cpp
+iostream
+-
+memory
+-
+dataaccess/IJsonParser.h
+/home/test/ConfigFileParser/ConfigFileParser/src/dataaccess/IJsonParser.h
+
+include/dataaccess/IJsonParser.h
+string
+-
+

@@ -1,0 +1,215 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "include",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "doc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc"
+				},
+				{
+					"build" : "res",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "res"
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				},
+				{
+					"build" : "dataaccess",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "dataaccess",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "dataaccess/doc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "dataaccess/doc"
+				},
+				{
+					"build" : "dataaccess/include",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "dataaccess/include"
+				},
+				{
+					"build" : "dataaccess/res",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "dataaccess/res"
+				},
+				{
+					"build" : "dataaccess/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "dataaccess/src"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "ConfigFileParser",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ConfigFileParser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConfigFileParser-Debug-e6b46cc7d93241080990.json",
+					"name" : "ConfigFileParser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConfigFileParser_build_headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConfigFileParser_build_headers-Debug-419dfaebac99e7a3c159.json",
+					"name" : "ConfigFileParser_build_headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "dataaccess::@17c3bfb7657a56f7ad57",
+					"jsonFile" : "target-dataaccess-Debug-5a75c8a36c125a36a5dd.json",
+					"name" : "dataaccess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "dataaccess_build_headers::@17c3bfb7657a56f7ad57",
+					"jsonFile" : "target-dataaccess_build_headers-Debug-05c89cea8921cdd753eb.json",
+					"name" : "dataaccess_build_headers",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/test/ConfigFileParser/build-ConfigFileParser-Desktop_Qt_5_14_0_GCC_64bit-Debug",
+		"source" : "/home/test/ConfigFileParser/ConfigFileParser"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies",
+			"include"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CommonCmakeLists.cmake",
+			"dataaccess/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 14,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "dataaccess_build_headers::@17c3bfb7657a56f7ad57"
+		}
+	],
+	"id" : "ConfigFileParser_build_headers::@6890427a1f51a3e7e1df",
+	"name" : "ConfigFileParser_build_headers",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

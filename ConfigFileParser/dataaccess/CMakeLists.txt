@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
+
 add_subdirectory(doc)
 add_subdirectory(include)
 add_subdirectory(res)
@@ -20,3 +21,8 @@ add_library(${Module_Name} STATIC ${INCLUDE_LIST} ${SRC_LIST} )
 target_link_libraries(${Module_Name} ${Boost_LIBRARIES})
 
 add_dependencies(${Module_Name} ${CMAKE_PROJECT_NAME}_build_headers)
+
+
+if(BUILD_TESTS)
+    add_subdirectory(test)
+endif(BUILD_TESTS)

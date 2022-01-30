@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+2a47ddbe6c7098fbc82c10dea0bb5994 dataaccess/CMakeFiles/dataaccess_build_headers
+e0b1889e1513602f109a3954a15a1840 include/dataaccess/IJsonParser.h
+649b76c5dd4d5c825bdb7456ea32c42c include/dataaccess/dataaccessmodule.h

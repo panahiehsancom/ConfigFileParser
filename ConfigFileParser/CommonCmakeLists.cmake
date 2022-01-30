@@ -3,12 +3,14 @@ cmake_minimum_required(VERSION 3.5)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+include_directories(BEFORE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
 if(UNIX)
-
     find_package(Boost COMPONENTS system thread REQUIRED)
-
     include_directories(${Boost_INCLUDE_DIR})
 
+    find_package(GTest REQUIRED)
+    include_directories(${GTEST_INCLUDE_DIRS})
 endif(UNIX)
 
 
@@ -52,9 +54,5 @@ if(DEFINED Module_Name)
     set(SRC_LIST ${src_appendix})
 else(DEFINED Module_Name)
     #
-
-
-
-
 
 endif(DEFINED Module_Name)

@@ -1,8 +1,9 @@
 #include <iostream>
+#include <memory>
 
-using namespace std;
+#include "dataaccess/IJsonParser.h"
 
 int main()
 {
-
+    std::shared_ptr<IJsonParser> parser;
 }

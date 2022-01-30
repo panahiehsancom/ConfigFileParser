@@ -1,0 +1,3 @@
+set (TEST_INCLUDE
+    PARENT_SCOPE)
+
